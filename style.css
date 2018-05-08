@@ -1,0 +1,27 @@
+.filenames{
+        padding: 10px 10px 10px 10px;
+          /*float: left;*/
+          list-style-type: none;
+}
+
+.tab-prop{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+th, td{
+    padding: 10px;
+  border: 1px solid black;  
+}
+
+.tab-prop td:nth-child(1){
+  vertical-align: top;
+  width: 50%;
+}
+
+.tab-prop td:nth-child(2){
+  width: 50%;
+}
